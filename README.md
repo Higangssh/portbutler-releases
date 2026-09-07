@@ -91,6 +91,32 @@ explanation is right.
 **The gap widens with distance.** A server on the other side of the world
 (200 ms) leaves a sequential transfer crawling; a parallel one barely notices.
 
+#### Against other SFTP clients
+
+`scp` is the baseline everyone has. Here is where we sit against the clients
+people actually shop against — compared on **wire-unconstrained conditions**,
+because that is the only way the client's own code is what is being measured:
+
+| | Download | Upload |
+|---|---|---|
+| **PortButler** | **465 MB/s** | 267 MB/s |
+| WindTerm 1.72 | 216 MB/s | 247 MB/s |
+| FileZilla | 161 MB/s | 172 MB/s |
+| WinSCP | 64 MB/s | 57 MB/s |
+
+**Read this as orders of magnitude, not a precise ranking.** Ours is an Apple
+silicon Mac; the others were published on Windows 10 with a 2.3 GHz Core i5, so
+the machines differ. We include it because the alternative — leaving it out —
+tells you less, and because the shape of the result matches the mechanism:
+clients that pipeline requests land in the hundreds, clients that do not land
+near `scp`. [Their published figures](https://kingtoolbox.github.io/2023/11/15/benchmark-sftp-transfer/)
+
+**Why not compare on gigabit?** WindTerm's 216 MB/s cannot happen on a 1GbE
+wire (max 119 MB/s), so it was measured on a faster link or inside one machine.
+Putting our 108 MB/s beside it would make us look half as fast while actually
+comparing *cables*, not code.
+
+
 <br>
 
 ### 2 · It tells you *why* a connection failed
@@ -184,31 +210,6 @@ no client can be meaningfully faster — the remaining 9% is protocol overhead.
 
 </details>
 
-<details>
-<summary><b>Why WindTerm's published numbers are not in our table</b></summary>
-
-<br>
-
-WindTerm publishes 216 MB/s for SFTP download. **That cannot happen on gigabit**
-(max 119 MB/s), so it was measured on a faster link or inside one machine.
-Putting our 108 MB/s beside it would make us look half as fast while actually
-comparing *cables*, not code.
-
-Compared on wire-unconstrained conditions instead:
-
-| | Download | Upload |
-|---|---|---|
-| **PortButler** | **465 MB/s** | 267 MB/s |
-| WindTerm 1.72 | 216 MB/s | 247 MB/s |
-| FileZilla | 161 MB/s | 172 MB/s |
-| WinSCP | 64 MB/s | 57 MB/s |
-
-Ours is an Apple silicon Mac; theirs is Windows 10 on a 2.3 GHz Core i5.
-**Read this as orders of magnitude, not a precise ranking** — a fair comparison
-means installing both on the same Mac.
-[Source](https://kingtoolbox.github.io/2023/11/15/benchmark-sftp-transfer/)
-
-</details>
 
 <br>
 
