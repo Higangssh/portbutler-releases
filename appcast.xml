@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>PortButler</title>
+    <item>
+      <title>0.1.0</title>
+      <pubDate>Mon, 07 Sep 2026 11:51:18 +0000</pubDate>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[새 판입니다.]]></description>
+      <enclosure
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.1.0/PortButler-0.1.0.zip"
+        sparkle:version="1"
+        sparkle:shortVersionString="0.1.0"
+        length="16583566"
+        type="application/octet-stream"
+        sparkle:edSignature="uirvC8bq9vza05AbdF+zOro+z4GUJa3U2hcz7q+XbvTZYennYGvc3NIrJB+GIWVJJWBd0v2msnA9a5p5TeuUDQ==" />
+    </item>
+  </channel>
+</rss>
