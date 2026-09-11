@@ -3,41 +3,22 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.1.2</title>
-      <pubDate>Fri, 11 Sep 2026 05:49:00 +0000</pubDate>
+      <title>0.1.3</title>
+      <pubDate>Fri, 11 Sep 2026 10:36:52 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[**Port forwarding.** Open a tunnel from the session's window (⌥⌘P), or save one to a
-host so it opens on connect. Both `-L` (a local port to a remote address) and `-D`
-(a SOCKS5 proxy) are there, and forwards ride the whole jump chain — the tunnel
-starts at the last hop, not the first. The window lists what is actually open,
-because a tunnel you cannot see is a tunnel you cannot trust.
+      <description><![CDATA[**Updates now reach you.** Until this build the app never checked for a new
+version on its own — the Info.plist said the decision was already made, so
+Sparkle neither asked nor looked. It asks once now, and you decide.
 
-**Files, next to the terminal.** The session window now carries a file pane above
-the terminal: the remote on top, this Mac below, either one switchable to any
-other connected machine. Dragging between the panes moves the file — including
-remote to remote, which relays through this Mac because SFTP has no server-side
-copy.
-
-**Also new**
-
-- Find in the scrollback (⌘F)
-- A colour per host, so production does not look like staging
-- A dot showing which sessions are actually up
-- Answer a `sudo` password prompt from your saved credentials, without the mouse
-- Sort the file list by name, size, or date; Return opens, Delete removes
-- A serial port remembers its own speed
-- Only one copy of the app runs, and there is a way back to the connect window
-- The sidebar shows whether you are on the trial or licensed
-
-**Still missing** — folder-wise transfer, resuming an interrupted transfer, a
-transfer queue.]]></description>
+Everything else is 0.1.2: port forwarding, files beside the terminal,
+drag between the panes, find in the scrollback, a colour per host.]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.1.2/PortButler-0.1.2.zip"
-        sparkle:version="3"
-        sparkle:shortVersionString="0.1.2"
-        length="16996126"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.1.3/PortButler-0.1.3.zip"
+        sparkle:version="4"
+        sparkle:shortVersionString="0.1.3"
+        length="16997830"
         type="application/octet-stream"
-        sparkle:edSignature="W7SyarpkRruS1FW1gks9HFlEGo5+1FXmJjNKwO3qmrvlitQ9OvKS7W3ZZ5GqMfY7j2uW/aSBKnVWVa7O3BwrAA==" />
+        sparkle:edSignature="yios6rSlwEBFMxMC+ytXl/KrOEjnRi9brqpqHMJiOPwmDGoMuGCJn74wxMV3VppRdaZnSlgKrxzw4nnqyY9uAw==" />
     </item>
   </channel>
 </rss>
