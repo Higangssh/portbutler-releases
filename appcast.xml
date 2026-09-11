@@ -3,25 +3,41 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.1.1</title>
-      <pubDate>Mon, 07 Sep 2026 14:15:05 +0000</pubDate>
+      <title>0.1.2</title>
+      <pubDate>Fri, 11 Sep 2026 05:49:00 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[파일 창이 생겼습니다. **File ▸ Files… (⇧⌘F)** 로 열면 칸 둘이 나란히 서고, 한쪽에 이 맥을 두고 다른 쪽에 붙어 있는 장비를 둘 수 있습니다. 파일을 올리려고 파인더 창을 따로 열 필요가 없습니다.
+      <description><![CDATA[**Port forwarding.** Open a tunnel from the session's window (⌥⌘P), or save one to a
+host so it opens on connect. Both `-L` (a local port to a remote address) and `-D`
+(a SOCKS5 proxy) are there, and forwards ride the whole jump chain — the tunnel
+starts at the last hop, not the first. The window lists what is actually open,
+because a tunnel you cannot see is a tunnel you cannot trust.
 
-**고친 것**
+**Files, next to the terminal.** The session window now carries a file pane above
+the terminal: the remote on top, this Mac below, either one switchable to any
+other connected machine. Dragging between the panes moves the file — including
+remote to remote, which relays through this Mac because SFTP has no server-side
+copy.
 
-- 시리얼 포트가 목록에 안 보이던 문제. 포트는 찾고 있었는데 화면에 펼쳐지지 않았습니다
-- 사이드바가 좁아 `/dev/cu.Bluetooth-Incoming-Port` 같은 경로가 잘리던 것. 이제 가운데를 줄여 앞뒤가 보이고, 마우스를 올리면 전체가 뜹니다
-- 환영 화면 아이콘이 큰 창에서 작아 보이던 것
+**Also new**
 
-**아직 없는 것** — 칸 사이 끌어다 놓기, 폴더째 전송, 전송 이어받기, 포트 포워딩.]]></description>
+- Find in the scrollback (⌘F)
+- A colour per host, so production does not look like staging
+- A dot showing which sessions are actually up
+- Answer a `sudo` password prompt from your saved credentials, without the mouse
+- Sort the file list by name, size, or date; Return opens, Delete removes
+- A serial port remembers its own speed
+- Only one copy of the app runs, and there is a way back to the connect window
+- The sidebar shows whether you are on the trial or licensed
+
+**Still missing** — folder-wise transfer, resuming an interrupted transfer, a
+transfer queue.]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.1.1/PortButler-0.1.1.zip"
-        sparkle:version="2"
-        sparkle:shortVersionString="0.1.1"
-        length="16627824"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.1.2/PortButler-0.1.2.zip"
+        sparkle:version="3"
+        sparkle:shortVersionString="0.1.2"
+        length="16996126"
         type="application/octet-stream"
-        sparkle:edSignature="5cLjKb0WrxzmSGumE7Zwv2WQt4cSJtV+Dh39BEM03HBSmMtujsWvLjCTcsKuoP7wJcxfOboZwhc00CC5MPkMAg==" />
+        sparkle:edSignature="W7SyarpkRruS1FW1gks9HFlEGo5+1FXmJjNKwO3qmrvlitQ9OvKS7W3ZZ5GqMfY7j2uW/aSBKnVWVa7O3BwrAA==" />
     </item>
   </channel>
 </rss>
