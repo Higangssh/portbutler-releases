@@ -15,7 +15,7 @@
   &nbsp;·&nbsp;
   <a href="#how-it-compares">Compare</a>
   &nbsp;·&nbsp;
-  <a href="#speed-measured-not-quoted">Benchmarks</a>
+  <a href="#speed-measured--not-quoted">Benchmarks</a>
 </p>
 
 <p align="center">
