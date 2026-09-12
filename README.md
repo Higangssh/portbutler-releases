@@ -27,20 +27,10 @@
 
 <br>
 
-```
-┌───────────────┬────────────────────────┬─────────────────────────────┐
-│  SESSIONS     │  FILES  (SFTP)         │  TERMINAL                   │
-│  🔍 search    │  ←  ↑   /home/you      │  you@pi5:~$ uname -sm       │
-│               │                        │  Linux aarch64              │
-│  ▾ Office     │  📁 workspace          │  you@pi5:~$ ▊               │
-│    🖥  pi5    │  📁 .config            │                             │
-│    🖥  nas    │  📄 notes.md           │                             │
-│  ▾ Serial     │  📄 firmware.bin       │                             │
-│    ⚡ usbmodem │                        │                             │
-│               │   ↕ drag to Finder     │                             │
-└───────────────┴────────────────────────┴─────────────────────────────┘
-      ⌥⌘S                 ⌥⌘F
-```
+<p align="center">
+  <img src="docs/hero.png" width="900" alt="Hosts, two file panes and a terminal in one PortButler window">
+</p>
+
 
 <p align="center">
 <i>Pick a host on the left and it opens as a <b>tab in this window</b>.<br>
@@ -90,6 +80,15 @@ explanation is right.
 
 **The gap widens with distance.** A server on the other side of the world
 (200 ms) leaves a sequential transfer crawling; a parallel one barely notices.
+
+<p align="center">
+  <img src="docs/feat-drag.png" width="900" alt="Dragging a firmware image from the remote pane down to the Mac">
+</p>
+
+<p align="center">
+<i>Two file panes, either one remote or local. Drag a file from one to the other
+— or sort by a column and move it without touching the mouse.</i>
+</p>
 
 #### Against other SFTP clients
 
@@ -147,6 +146,15 @@ PortButler counts too. It offers **at most four public keys**, so an attempt is
 always left for a password. It skips methods the server says it will not accept,
 warns before a password attempt that could lock the account, and spaces out
 reconnects.
+
+<p align="center">
+  <img src="docs/feat-cred.png" width="900" alt="PortButler answering a sudo password prompt from a saved credential">
+</p>
+
+<p align="center">
+<i>And when the far side asks for a password mid-session, it can answer from a
+credential you saved in the Keychain — instead of you retyping it.</i>
+</p>
 
 ---
 
@@ -253,6 +261,14 @@ The full comparison — **including what these tools do better than us** — is 
 ---
 
 ## Features
+
+<p align="center">
+  <img src="docs/connect.png" width="760" alt="The Connect window: saved sessions on the left, welcome panel on the right">
+</p>
+
+<p align="center">
+<i>The window you land on. Saved sessions on the left; ⇧⌘K searches them.</i>
+</p>
 
 **Sessions** — groups, aliases, notes, and jump chains that reference hosts by
 **ID**, so renaming a bastion never breaks the chain. Everything lives in one
