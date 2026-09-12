@@ -82,6 +82,15 @@ explanation is right.
 (200 ms) leaves a sequential transfer crawling; a parallel one barely notices.
 
 <p align="center">
+  <img src="docs/feat-xfer.png" width="900" alt="A transfer in progress, showing megabytes per second and the time left">
+</p>
+
+<p align="center">
+<i>The rate is on screen while it runs — megabytes per second and the time
+left, in the same units as the table above.</i>
+</p>
+
+<p align="center">
   <img src="docs/feat-drag.png" width="900" alt="Dragging a firmware image from the remote pane down to the Mac">
 </p>
 
@@ -152,8 +161,9 @@ reconnects.
 </p>
 
 <p align="center">
-<i>And when the far side asks for a password mid-session, it can answer from a
-credential you saved in the Keychain — instead of you retyping it.</i>
+<i>And when the far side asks for a password, the list opens over the prompt —
+type to filter, Return to send. The password comes from the Keychain; it is
+never shown and never typed again.</i>
 </p>
 
 ---
@@ -271,15 +281,20 @@ The full comparison — **including what these tools do better than us** — is 
 </p>
 
 **Sessions** — groups, aliases, notes, and jump chains that reference hosts by
-**ID**, so renaming a bastion never breaks the chain. Everything lives in one
-JSON file you can carry to another Mac.
+**ID**, so renaming a bastion never breaks the chain. Recent connections are one
+click from the welcome panel, and an empty list offers to fill itself from your
+`ssh_config`. Everything lives in one JSON file you can carry to another Mac.
+
+**Tunnels** — every port forward you have open, from every window, in one list.
+Close one from there; search finds it by port number. A forward you cannot see
+is a forward you forget.
 
 **SFTP** — drag and drop both ways, edit remote files in your own editor with
 saves uploaded automatically, and downloads that never silently overwrite.
 
-**Serial** — `/dev/cu.*` detected automatically, speed and framing picked at
-connect time, XMODEM/YMODEM transfers, control lines, and a hex mode for binary
-protocols.
+**Serial** — `/dev/cu.*` detected automatically — minus the two every Mac has
+and nobody wants to see. Speed and framing picked at connect time, XMODEM/YMODEM
+transfers, control lines, and a hex mode for binary protocols.
 
 **Session logging** — timestamped, rotating, on both SSH and serial, with no
 measurable cost to throughput.
