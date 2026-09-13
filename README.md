@@ -1,28 +1,3 @@
-<!-- 공개 저장소(portbutler-releases)의 README 원본.
-     **여기서 관리하고 릴리스할 때 복사한다** — 저장소 두 곳에 따로 두면 한쪽만
-     고치게 되고, 홍보 문구가 실제 기능과 어긋나는 것이 가장 나쁘다.
-
-     함께 복사할 것 (공개 저장소 기준 경로):
-       docs/mascot.png     ← apple/assets/mascot.png
-       docs/icon.png       ← apple/build/preview-512.png
-       docs/hero.png       ← docs/release/assets/hero.png
-       docs/feat-drag.png  ← docs/release/assets/feat-drag.png
-       docs/feat-cred.png  ← docs/release/assets/feat-cred.png
-       docs/connect.png    ← docs/release/assets/connect.png
-       docs/feat-xfer.png  ← docs/release/assets/feat-xfer.png
-
-     **화면 이미지는 캡처가 아니라 재구성이다.** 어디까지가 실물인지는
-     docs/release/assets/README.md 와 각 PNG 옆의 .meta.json 에 있다. 화면이
-     바뀌면 이미지도 함께 고칠 것 — 소스는 assets/sources/*.html 이다.
-
-     **앵커의 하이픈 둘은 오타가 아니다.** GitHub은 제목에서 구두점을 지우고
-     공백을 하이픈으로 바꾼다 — "Speed, measured — not quoted"는 em 대시가
-     사라지고 양옆 공백이 남아 `#speed-measured--not-quoted`가 된다. 하나로
-     줄이면 상단 Benchmarks 단추가 아무 데도 가지 않는다.
-
-     **수치를 고칠 때는 docs/BENCHMARK.md를 먼저 고칠 것.** 여기 있는 값은 전부
-     그 문서에서 온 실측값이고, 홍보 문구가 근거보다 앞서가면 되돌릴 수 없다. -->
-
 <p align="center">
   <img src="docs/mascot.png" width="170" alt="PortButler">
 </p>
@@ -37,6 +12,8 @@
   <a href="https://portbutler.sshlab.dev"><b>portbutler.sshlab.dev</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/Higangssh/portbutler-releases/releases/latest"><b>↓ Download</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://buy.polar.sh/polar_cl_4mYTJiLTIaCf0evHlowBRXriGMT2doIQmfZL30FOvhW"><b>Buy · $29</b></a>
   &nbsp;·&nbsp;
   <a href="#pricing">Pricing</a>
   &nbsp;·&nbsp;
@@ -212,7 +189,7 @@ size. A table that puts a gigabit-wired result next to a Wi-Fi one is
 advertising, not data.
 
 So every number above was measured here, on one Mac, and **you can measure it
-again yourself** — the commands are in [BENCHMARK](docs/BENCHMARK.ko.md) *(Korean)*.
+again yourself** — the commands are in [BENCHMARK](docs/BENCHMARK.md).
 
 <details>
 <summary><b>Test conditions</b></summary>
@@ -293,7 +270,7 @@ not trying to win on feature count — the difference is in character.
 | Price | **$29 once** | free | subscription |
 
 The full comparison — **including what these tools do better than us** — is in
-[COMPARISON](docs/COMPARISON.ko.md) *(Korean)*, with sources and the date checked.
+[COMPARISON](docs/COMPARISON.md), with sources and the date checked.
 
 ---
 
