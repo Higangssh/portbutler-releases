@@ -3,24 +3,25 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.2.2</title>
-      <pubDate>Sun, 13 Sep 2026 14:51:14 +0000</pubDate>
+      <title>0.3.0</title>
+      <pubDate>Sun, 13 Sep 2026 22:44:05 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.2.2</h3>
+      <description><![CDATA[<h3>0.3.0</h3>
+<p>The session list now looks like it belongs on a Mac.</p>
 <ul>
-  <li><b>&ldquo;Enter license&hellip;&rdquo; is on the sidebar now</b>, under
-      the Buy button — not only in the PortButler menu. It disappears once
-      you are registered.</li>
-  <li>A line in Settings was cut off mid-character instead of wrapping.
-      Fixed.</li>
-</ul>]]></description>
+  <li><b>Rounded, inset selection</b> instead of a full-width slab of colour.</li>
+  <li><b>A translucent sidebar</b>, the way Finder and Mail draw theirs.</li>
+  <li><b>Taller rows</b> — a name and an address on two lines had almost no
+      space around them.</li>
+</ul>
+<p>Connecting, transferring and logging are unchanged.</p>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.2.2/PortButler-0.2.2.zip"
-        sparkle:version="7"
-        sparkle:shortVersionString="0.2.2"
-        length="18561959"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.3.0/PortButler-0.3.0.zip"
+        sparkle:version="8"
+        sparkle:shortVersionString="0.3.0"
+        length="18563127"
         type="application/octet-stream"
-        sparkle:edSignature="pqSXJSwUF/kz8Z4p4UfVXdnJtutdELE5U8iiZQlgr6JurYjYNeDnSc/3gSCVlx3/j4nu3cUIZVLA6Xe8s8kxDg==" />
+        sparkle:edSignature="I7Nu8DROUSM/7VMz8YWO5xi4m8k1maZtW+CTE9DMOcb0Kg1sizhHBli5CLE7CXRcgOGuLvpXPhz1KKkOwzooBQ==" />
     </item>
   </channel>
 </rss>
