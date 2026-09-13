@@ -3,26 +3,24 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.2.1</title>
-      <pubDate>Sun, 13 Sep 2026 12:24:24 +0000</pubDate>
+      <title>0.2.2</title>
+      <pubDate>Sun, 13 Sep 2026 14:51:14 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.2.1</h3>
-<p>A repair release for three things 0.2.0 got wrong.</p>
+      <description><![CDATA[<h3>0.2.2</h3>
 <ul>
-  <li><b>&ldquo;Buy&rdquo; and &ldquo;Website&rdquo; went nowhere</b> — the
-      address built into 0.2.0 did not exist.</li>
-  <li><b><code>user@host:port</code> was read as one hostname</b>, so
-      <code>deploy@10.0.0.5:2222</code> could not connect.</li>
-  <li><b>The host key fingerprint wrapped mid-string</b>, which is the one
-      thing that sheet exists to let you compare.</li>
+  <li><b>&ldquo;Enter license&hellip;&rdquo; is on the sidebar now</b>, under
+      the Buy button — not only in the PortButler menu. It disappears once
+      you are registered.</li>
+  <li>A line in Settings was cut off mid-character instead of wrapping.
+      Fixed.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.2.1/PortButler-0.2.1.zip"
-        sparkle:version="6"
-        sparkle:shortVersionString="0.2.1"
-        length="18558982"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.2.2/PortButler-0.2.2.zip"
+        sparkle:version="7"
+        sparkle:shortVersionString="0.2.2"
+        length="18561959"
         type="application/octet-stream"
-        sparkle:edSignature="5FP+MJYnSnf40CdA7DSKrW7zZ991ntO+ftKE0vRhvLcsZJFo8Ii/q0Ee5PN9nkgaYfTNVGRdapQdV67Xov1BBA==" />
+        sparkle:edSignature="pqSXJSwUF/kz8Z4p4UfVXdnJtutdELE5U8iiZQlgr6JurYjYNeDnSc/3gSCVlx3/j4nu3cUIZVLA6Xe8s8kxDg==" />
     </item>
   </channel>
 </rss>
