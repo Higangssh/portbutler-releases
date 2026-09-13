@@ -3,22 +3,27 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.1.3</title>
-      <pubDate>Fri, 11 Sep 2026 10:36:52 +0000</pubDate>
+      <title>0.2.0</title>
+      <pubDate>Sun, 13 Sep 2026 08:44:29 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[**Updates now reach you.** Until this build the app never checked for a new
-version on its own — the Info.plist said the decision was already made, so
-Sparkle neither asked nor looked. It asks once now, and you decide.
-
-Everything else is 0.1.2: port forwarding, files beside the terminal,
-drag between the panes, find in the scrollback, a colour per host.]]></description>
+      <description><![CDATA[<h3>0.2.0</h3>
+<ul>
+  <li><b>⌘1–⌘9 goes straight to a tab</b> — and ⌘/ lists every shortcut.</li>
+  <li><b>Recent connections</b> on the connect window.</li>
+  <li><b>Saved credentials answer password prompts</b> — the password goes from
+      the Keychain to the session without being shown.</li>
+  <li>A saved credential could send the password of an account it no longer
+      had. Fixed.</li>
+  <li>A sleeping display shrank the window and kept it that way. Fixed.</li>
+</ul>
+<p>The app icon has a new colour — it will look different in your Dock.</p>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.1.3/PortButler-0.1.3.zip"
-        sparkle:version="4"
-        sparkle:shortVersionString="0.1.3"
-        length="16997830"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.2.0/PortButler-0.2.0.zip"
+        sparkle:version="5"
+        sparkle:shortVersionString="0.2.0"
+        length="18535333"
         type="application/octet-stream"
-        sparkle:edSignature="yios6rSlwEBFMxMC+ytXl/KrOEjnRi9brqpqHMJiOPwmDGoMuGCJn74wxMV3VppRdaZnSlgKrxzw4nnqyY9uAw==" />
+        sparkle:edSignature="4SRU/Zphpxqf1nYWpKPIkraVQB6eZqviBflzoLNh55f1mkeR71TT4XoNX/Fhj0LCImncxMn+GxiD2uoTGIumAA==" />
     </item>
   </channel>
 </rss>
