@@ -3,27 +3,26 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.2.0</title>
-      <pubDate>Sun, 13 Sep 2026 08:44:29 +0000</pubDate>
+      <title>0.2.1</title>
+      <pubDate>Sun, 13 Sep 2026 12:24:24 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.2.0</h3>
+      <description><![CDATA[<h3>0.2.1</h3>
+<p>A repair release for three things 0.2.0 got wrong.</p>
 <ul>
-  <li><b>⌘1–⌘9 goes straight to a tab</b> — and ⌘/ lists every shortcut.</li>
-  <li><b>Recent connections</b> on the connect window.</li>
-  <li><b>Saved credentials answer password prompts</b> — the password goes from
-      the Keychain to the session without being shown.</li>
-  <li>A saved credential could send the password of an account it no longer
-      had. Fixed.</li>
-  <li>A sleeping display shrank the window and kept it that way. Fixed.</li>
-</ul>
-<p>The app icon has a new colour — it will look different in your Dock.</p>]]></description>
+  <li><b>&ldquo;Buy&rdquo; and &ldquo;Website&rdquo; went nowhere</b> — the
+      address built into 0.2.0 did not exist.</li>
+  <li><b><code>user@host:port</code> was read as one hostname</b>, so
+      <code>deploy@10.0.0.5:2222</code> could not connect.</li>
+  <li><b>The host key fingerprint wrapped mid-string</b>, which is the one
+      thing that sheet exists to let you compare.</li>
+</ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.2.0/PortButler-0.2.0.zip"
-        sparkle:version="5"
-        sparkle:shortVersionString="0.2.0"
-        length="18535333"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.2.1/PortButler-0.2.1.zip"
+        sparkle:version="6"
+        sparkle:shortVersionString="0.2.1"
+        length="18558982"
         type="application/octet-stream"
-        sparkle:edSignature="4SRU/Zphpxqf1nYWpKPIkraVQB6eZqviBflzoLNh55f1mkeR71TT4XoNX/Fhj0LCImncxMn+GxiD2uoTGIumAA==" />
+        sparkle:edSignature="5FP+MJYnSnf40CdA7DSKrW7zZ991ntO+ftKE0vRhvLcsZJFo8Ii/q0Ee5PN9nkgaYfTNVGRdapQdV67Xov1BBA==" />
     </item>
   </channel>
 </rss>
