@@ -3,25 +3,30 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.3.0</title>
-      <pubDate>Sun, 13 Sep 2026 22:44:05 +0000</pubDate>
+      <title>0.4.0</title>
+      <pubDate>Mon, 14 Sep 2026 05:55:44 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.3.0</h3>
-<p>The session list now looks like it belongs on a Mac.</p>
+      <description><![CDATA[<h3>0.4.0</h3>
+<p>A port forward no longer needs a terminal to live in.</p>
 <ul>
-  <li><b>Rounded, inset selection</b> instead of a full-width slab of colour.</li>
-  <li><b>A translucent sidebar</b>, the way Finder and Mail draw theirs.</li>
-  <li><b>Taller rows</b> — a name and an address on two lines had almost no
-      space around them.</li>
-</ul>
-<p>Connecting, transferring and logging are unchanged.</p>]]></description>
+  <li><b>Local tunnel is a kind of session.</b> It holds its ports open with
+      no shell, and shows what is listening, where it goes and how many bytes
+      have moved.</li>
+  <li><b>It points at a host you already saved</b> and borrows its account,
+      key and jump chain — you never enter the same machine twice.</li>
+  <li><b>Backspace deletes again</b> in the file browser, and ⌘↑ goes up a
+      folder. <b>⌘Z and ⌘X</b> now work everywhere.</li>
+  <li><b>You can choose where downloads go</b>, in Settings ▸ Files.</li>
+  <li>The host editor was wider than its sheet, so the right edge of every
+      row was clipped. Fixed.</li>
+</ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.3.0/PortButler-0.3.0.zip"
-        sparkle:version="8"
-        sparkle:shortVersionString="0.3.0"
-        length="18563127"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.4.0/PortButler-0.4.0.zip"
+        sparkle:version="9"
+        sparkle:shortVersionString="0.4.0"
+        length="18631570"
         type="application/octet-stream"
-        sparkle:edSignature="I7Nu8DROUSM/7VMz8YWO5xi4m8k1maZtW+CTE9DMOcb0Kg1sizhHBli5CLE7CXRcgOGuLvpXPhz1KKkOwzooBQ==" />
+        sparkle:edSignature="MnhtF8RNpicgF+I2H9Kpx2NRbINFfCfbeSyqOQprqEqOJFwNQkTRbuzBtxyu+sZKi9ERsL9LVCNLoUbnvzVMAw==" />
     </item>
   </channel>
 </rss>
