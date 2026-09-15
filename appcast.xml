@@ -3,29 +3,31 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.8.2</title>
-      <pubDate>Tue, 15 Sep 2026 14:29:11 +0000</pubDate>
+      <title>0.9.0</title>
+      <pubDate>Tue, 15 Sep 2026 15:48:13 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.8.2</h3>
-<p>Four ways a text transfer could damage something, closed.</p>
+      <description><![CDATA[<h3>0.9.0</h3>
+<p>Command suggestions now work over SSH, not just serial.</p>
 <ul>
-  <li><b>It wrote over the target before checking the bytes.</b> It now decodes
-      beside the file and only renames on a checksum match — a bad transfer
-      leaves what was already there untouched.</li>
-  <li><b>A name starting with <code>-</code> broke every command</b>, because
-      quoting does not stop <code>rm</code> or <code>mv</code> reading it as an
-      option.</li>
-  <li><b>Receiving replaced a same-named file on the Mac non-atomically.</b></li>
-  <li><b>Nothing checked the device had opened the file</b> before sending
-      thousands of lines that its shell would then read as commands.</li>
+  <li><b>Suggestions over SSH.</b> What you typed on that host, completed in
+      grey; press → to accept. On by default, and off per host with
+      <b>File ▸ Suggest Commands Here</b>.</li>
+  <li><b>It gives up when it stops being sure</b> — after ↑, Tab or ⌃R, inside
+      vim or less, and while a password is being typed. Nothing is sent unless
+      you press →.</li>
+  <li><b>Passwords are never remembered</b>, and the value after words like
+      <code>password</code> or <code>community</code> is cut off even when the
+      device echoed it.</li>
+  <li>The grey text targets a contrast ratio instead of a fixed transparency, so
+      it reads the same on any theme.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.8.2/PortButler-0.8.2.zip"
-        sparkle:version="17"
-        sparkle:shortVersionString="0.8.2"
-        length="19293623"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.9.0/PortButler-0.9.0.zip"
+        sparkle:version="18"
+        sparkle:shortVersionString="0.9.0"
+        length="19311670"
         type="application/octet-stream"
-        sparkle:edSignature="11vzimP/c1bG+yhaPLRGBH6kLfKfGdZ1VVxCisRve2heS2uY1xVdYsUqoi2+cdNprw5RVoJBwSxQ/AAnGWQ7BA==" />
+        sparkle:edSignature="QaqQlFodoA6KvRTMGGe2Rvtf8jojK25DDP0sRPFxR3gjAy7iAUjkA28DBkfBdZyOvOsXDWdzjWTNPC4A+tTgBA==" />
     </item>
   </channel>
 </rss>
