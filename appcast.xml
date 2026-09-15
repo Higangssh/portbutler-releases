@@ -3,31 +3,30 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.5.0</title>
-      <pubDate>Tue, 15 Sep 2026 01:29:03 +0000</pubDate>
+      <title>0.6.0</title>
+      <pubDate>Tue, 15 Sep 2026 06:53:04 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.5.0</h3>
-<p>Everything a console cable needs, and the terminal stops losing what you paste.</p>
+      <description><![CDATA[<h3>0.6.0</h3>
+<p>Send and fetch files on a device that has no transfer tools at all.</p>
 <ul>
-  <li><b>Paste is paced.</b> A switch at 9600 with no flow control drops what
-      it cannot buffer — silently. Settings ▸ Paste delay fixes that, and the
-      bytes themselves are untouched.</li>
-  <li><b>Snippets.</b> The commands you type all day, on ⌃⌘1…⌃⌘9.</li>
-  <li><b>File transfer over serial</b> — XMODEM, XMODEM-1K, YMODEM and ZMODEM,
-      with drag and drop.</li>
-  <li><b>Adapters say what they are</b>, and unplugging one is noticed instead
-      of leaving a dead session looking live.</li>
-  <li><b>The version is on screen</b> and says whether it is the latest.</li>
-  <li><b>Downloads resume</b>, and an upload that dies part-way no longer
-      leaves a file that looks complete.</li>
+  <li><b>Text transfer — nothing needed on the device.</b> X/Y/ZMODEM need
+      <code>lrzsz</code> on the far end; this needs only <code>base64</code> and
+      <code>sha256sum</code>. Any file, including archives and firmware, with the
+      checksum compared at the end.</li>
+  <li><b>Fetch a file the same way</b>, for boards with no network.</li>
+  <li><b>Rebind almost any shortcut</b> in Settings ▸ Keyboard. Standard Mac keys
+      stay fixed.</li>
+  <li><b>Send is no longer greyed out</b> waiting for the device, and the progress
+      sheet no longer covers the terminal while it waits.</li>
+  <li><b>The app comes back after an update</b>, and says that it updated.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.5.0/PortButler-0.5.0.zip"
-        sparkle:version="10"
-        sparkle:shortVersionString="0.5.0"
-        length="19046194"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.6.0/PortButler-0.6.0.zip"
+        sparkle:version="11"
+        sparkle:shortVersionString="0.6.0"
+        length="19212463"
         type="application/octet-stream"
-        sparkle:edSignature="oSVW+KKJJor9LVkj/emIlFyfth4sPzZkPL3i5v6BZ7feUkEYY7Ilk/cmoWvqVTNYUD5eFY/fPV8RlbIy0v4mAA==" />
+        sparkle:edSignature="U0F21wzc8Gow0GP1OQVnt26iMBVFe5NTRaf+WxSMKm1lgfsL7SJhDnzjojWAwvZxwX2LL503kNWB982iSRCyDg==" />
     </item>
   </channel>
 </rss>
