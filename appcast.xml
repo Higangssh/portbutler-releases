@@ -3,29 +3,26 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.8.0</title>
-      <pubDate>Tue, 15 Sep 2026 12:02:12 +0000</pubDate>
+      <title>0.8.1</title>
+      <pubDate>Tue, 15 Sep 2026 13:09:05 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.8.0</h3>
-<p>Updates now come from our own address, and the app tells you when there is one.</p>
+      <description><![CDATA[<h3>0.8.1</h3>
+<p>The daily update reminder actually repeats now.</p>
 <ul>
-  <li><b>The update feed moved to portbutler.sshlab.dev</b> — this is the
-      address from now on.</li>
-  <li><b>Once a day, a line says a newer version exists</b> and where to click.
-      No window stealing focus while you type.</li>
-  <li><b>Report a problem by mail</b>, not only as a public GitHub issue.</li>
-  <li><b>The version at the bottom is legible</b>, coloured by state, and shows
-      what it would move to.</li>
-  <li>Default font is 12pt, which fits as much across as iTerm2 and ten rows
-      more down.</li>
+  <li><b>"Once a day" fired once, ever.</b> It was hung on the update state
+      changing, which only happens the first time. It now also checks when you
+      come back to the app.</li>
+  <li>This is the first release delivered through
+      <b>portbutler.sshlab.dev</b>. If you are reading this in the update
+      window, that move worked.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.8.0/PortButler-0.8.0.zip"
-        sparkle:version="15"
-        sparkle:shortVersionString="0.8.0"
-        length="19288495"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.8.1/PortButler-0.8.1.zip"
+        sparkle:version="16"
+        sparkle:shortVersionString="0.8.1"
+        length="19289103"
         type="application/octet-stream"
-        sparkle:edSignature="6NsH8oHD0mjLDtyFfi24VLp640zr8FAhDO5aWKnXjMGcDWByYBZDhGK9o/W8iq4aXN8wlkPbxnPgWYREsSc6Bg==" />
+        sparkle:edSignature="jgGwoS7lR/MsBbD4i420o3THcAUCSkl+UTKFm1Wak+ggHZEWFsaiMTc4g0Mmub0RApVGiUbR2KTyZavlxmO6Bg==" />
     </item>
   </channel>
 </rss>
