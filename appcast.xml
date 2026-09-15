@@ -3,30 +3,31 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.4.0</title>
-      <pubDate>Mon, 14 Sep 2026 05:55:44 +0000</pubDate>
+      <title>0.5.0</title>
+      <pubDate>Tue, 15 Sep 2026 01:29:03 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.4.0</h3>
-<p>A port forward no longer needs a terminal to live in.</p>
+      <description><![CDATA[<h3>0.5.0</h3>
+<p>Everything a console cable needs, and the terminal stops losing what you paste.</p>
 <ul>
-  <li><b>Local tunnel is a kind of session.</b> It holds its ports open with
-      no shell, and shows what is listening, where it goes and how many bytes
-      have moved.</li>
-  <li><b>It points at a host you already saved</b> and borrows its account,
-      key and jump chain — you never enter the same machine twice.</li>
-  <li><b>Backspace deletes again</b> in the file browser, and ⌘↑ goes up a
-      folder. <b>⌘Z and ⌘X</b> now work everywhere.</li>
-  <li><b>You can choose where downloads go</b>, in Settings ▸ Files.</li>
-  <li>The host editor was wider than its sheet, so the right edge of every
-      row was clipped. Fixed.</li>
+  <li><b>Paste is paced.</b> A switch at 9600 with no flow control drops what
+      it cannot buffer — silently. Settings ▸ Paste delay fixes that, and the
+      bytes themselves are untouched.</li>
+  <li><b>Snippets.</b> The commands you type all day, on ⌃⌘1…⌃⌘9.</li>
+  <li><b>File transfer over serial</b> — XMODEM, XMODEM-1K, YMODEM and ZMODEM,
+      with drag and drop.</li>
+  <li><b>Adapters say what they are</b>, and unplugging one is noticed instead
+      of leaving a dead session looking live.</li>
+  <li><b>The version is on screen</b> and says whether it is the latest.</li>
+  <li><b>Downloads resume</b>, and an upload that dies part-way no longer
+      leaves a file that looks complete.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.4.0/PortButler-0.4.0.zip"
-        sparkle:version="9"
-        sparkle:shortVersionString="0.4.0"
-        length="18631570"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.5.0/PortButler-0.5.0.zip"
+        sparkle:version="10"
+        sparkle:shortVersionString="0.5.0"
+        length="19046194"
         type="application/octet-stream"
-        sparkle:edSignature="MnhtF8RNpicgF+I2H9Kpx2NRbINFfCfbeSyqOQprqEqOJFwNQkTRbuzBtxyu+sZKi9ERsL9LVCNLoUbnvzVMAw==" />
+        sparkle:edSignature="oSVW+KKJJor9LVkj/emIlFyfth4sPzZkPL3i5v6BZ7feUkEYY7Ilk/cmoWvqVTNYUD5eFY/fPV8RlbIy0v4mAA==" />
     </item>
   </channel>
 </rss>
