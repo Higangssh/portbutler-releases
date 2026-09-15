@@ -3,30 +3,30 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.6.0</title>
-      <pubDate>Tue, 15 Sep 2026 06:53:04 +0000</pubDate>
+      <title>0.7.0</title>
+      <pubDate>Tue, 15 Sep 2026 08:15:05 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.6.0</h3>
-<p>Send and fetch files on a device that has no transfer tools at all.</p>
+      <description><![CDATA[<h3>0.7.0</h3>
+<p>The console remembers what you typed on it.</p>
 <ul>
-  <li><b>Text transfer — nothing needed on the device.</b> X/Y/ZMODEM need
-      <code>lrzsz</code> on the far end; this needs only <code>base64</code> and
-      <code>sha256sum</code>. Any file, including archives and firmware, with the
-      checksum compared at the end.</li>
-  <li><b>Fetch a file the same way</b>, for boards with no network.</li>
-  <li><b>Rebind almost any shortcut</b> in Settings ▸ Keyboard. Standard Mac keys
-      stay fixed.</li>
-  <li><b>Send is no longer greyed out</b> waiting for the device, and the progress
-      sheet no longer covers the terminal while it waits.</li>
-  <li><b>The app comes back after an update</b>, and says that it updated.</li>
+  <li><b>Command suggestions on serial.</b> A switch or router console has no
+      history of its own. PortButler completes what you typed on that device,
+      in grey; press → to accept.</li>
+  <li><b>Passwords are never remembered.</b> A line the device did not echo is
+      dropped, and the value after words like <code>password</code> or
+      <code>community</code> is cut off.</li>
+  <li>It switches off inside vim and less, after an arrow key, and while a
+      password is being typed. Settings turns it off entirely.</li>
+  <li><b>A license file the app could not use no longer vanishes silently</b> —
+      it says what went wrong and what to do.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.6.0/PortButler-0.6.0.zip"
-        sparkle:version="11"
-        sparkle:shortVersionString="0.6.0"
-        length="19212463"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.7.0/PortButler-0.7.0.zip"
+        sparkle:version="12"
+        sparkle:shortVersionString="0.7.0"
+        length="19249118"
         type="application/octet-stream"
-        sparkle:edSignature="U0F21wzc8Gow0GP1OQVnt26iMBVFe5NTRaf+WxSMKm1lgfsL7SJhDnzjojWAwvZxwX2LL503kNWB982iSRCyDg==" />
+        sparkle:edSignature="BRRSPcm0sSc5ACBdTddGB/AKHeZGJZkDamtMZdKN6wdBPlfDyZzMg+K1djLrtUYtT671VxrUQYcfFe2j8RO0AQ==" />
     </item>
   </channel>
 </rss>
