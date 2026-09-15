@@ -3,26 +3,29 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.8.1</title>
-      <pubDate>Tue, 15 Sep 2026 13:09:05 +0000</pubDate>
+      <title>0.8.2</title>
+      <pubDate>Tue, 15 Sep 2026 14:29:11 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.8.1</h3>
-<p>The daily update reminder actually repeats now.</p>
+      <description><![CDATA[<h3>0.8.2</h3>
+<p>Four ways a text transfer could damage something, closed.</p>
 <ul>
-  <li><b>"Once a day" fired once, ever.</b> It was hung on the update state
-      changing, which only happens the first time. It now also checks when you
-      come back to the app.</li>
-  <li>This is the first release delivered through
-      <b>portbutler.sshlab.dev</b>. If you are reading this in the update
-      window, that move worked.</li>
+  <li><b>It wrote over the target before checking the bytes.</b> It now decodes
+      beside the file and only renames on a checksum match — a bad transfer
+      leaves what was already there untouched.</li>
+  <li><b>A name starting with <code>-</code> broke every command</b>, because
+      quoting does not stop <code>rm</code> or <code>mv</code> reading it as an
+      option.</li>
+  <li><b>Receiving replaced a same-named file on the Mac non-atomically.</b></li>
+  <li><b>Nothing checked the device had opened the file</b> before sending
+      thousands of lines that its shell would then read as commands.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.8.1/PortButler-0.8.1.zip"
-        sparkle:version="16"
-        sparkle:shortVersionString="0.8.1"
-        length="19289103"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.8.2/PortButler-0.8.2.zip"
+        sparkle:version="17"
+        sparkle:shortVersionString="0.8.2"
+        length="19293623"
         type="application/octet-stream"
-        sparkle:edSignature="jgGwoS7lR/MsBbD4i420o3THcAUCSkl+UTKFm1Wak+ggHZEWFsaiMTc4g0Mmub0RApVGiUbR2KTyZavlxmO6Bg==" />
+        sparkle:edSignature="11vzimP/c1bG+yhaPLRGBH6kLfKfGdZ1VVxCisRve2heS2uY1xVdYsUqoi2+cdNprw5RVoJBwSxQ/AAnGWQ7BA==" />
     </item>
   </channel>
 </rss>
