@@ -3,27 +3,29 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.7.2</title>
-      <pubDate>Tue, 15 Sep 2026 11:04:11 +0000</pubDate>
+      <title>0.8.0</title>
+      <pubDate>Tue, 15 Sep 2026 12:02:12 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.7.2</h3>
-<p>Cancelling a transfer no longer breaks the next command you type.</p>
+      <description><![CDATA[<h3>0.8.0</h3>
+<p>Updates now come from our own address, and the app tells you when there is one.</p>
 <ul>
-  <li><b>Cancel left characters stuck on the device's input line</b>, which then
-      glued themselves to whatever you typed next —
-      <code>-sh: rcat: command not found</code>. The cancel sequence was missing
-      the half that clears the line.</li>
-  <li><b>The ZMODEM hint had it backwards.</b> ZMODEM is the one where the sender
-      speaks first, and the app types <code>rz</code> on the device for you — so
-      there is nothing to run there beforehand.</li>
+  <li><b>The update feed moved to portbutler.sshlab.dev</b> — this is the
+      address from now on.</li>
+  <li><b>Once a day, a line says a newer version exists</b> and where to click.
+      No window stealing focus while you type.</li>
+  <li><b>Report a problem by mail</b>, not only as a public GitHub issue.</li>
+  <li><b>The version at the bottom is legible</b>, coloured by state, and shows
+      what it would move to.</li>
+  <li>Default font is 12pt, which fits as much across as iTerm2 and ten rows
+      more down.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.7.2/PortButler-0.7.2.zip"
-        sparkle:version="14"
-        sparkle:shortVersionString="0.7.2"
-        length="19262544"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.8.0/PortButler-0.8.0.zip"
+        sparkle:version="15"
+        sparkle:shortVersionString="0.8.0"
+        length="19288495"
         type="application/octet-stream"
-        sparkle:edSignature="1ZgE4A/MQaoQsoqYgH5N8WW1Yt6nL4kRf8E04T6cS2d7uLK1/eut6OlqITFndpp7rN/1eFlaVDJGiS7ii3QDAg==" />
+        sparkle:edSignature="6NsH8oHD0mjLDtyFfi24VLp640zr8FAhDO5aWKnXjMGcDWByYBZDhGK9o/W8iq4aXN8wlkPbxnPgWYREsSc6Bg==" />
     </item>
   </channel>
 </rss>
