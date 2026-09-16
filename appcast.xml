@@ -3,35 +3,36 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.10.0</title>
-      <pubDate>Wed, 16 Sep 2026 07:47:59 +0000</pubDate>
+      <title>0.11.0</title>
+      <pubDate>Wed, 16 Sep 2026 12:57:08 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.10.0</h3>
-<p>Korean now fills the cell it is given.</p>
+      <description><![CDATA[<h3>0.11.0</h3>
+<p>Mac habits, put back where they belong.</p>
+<h4>Changed — one key swapped</h4>
+<p><b>Return renames a file. ⌘↓ downloads it.</b> It was the other way round,
+and that was the Windows Explorer habit rather than the Mac one — Finder,
+Transmit and ForkLift all put rename on Return.</p>
+<p>The two mistakes are not the same size. Press Return expecting a download and
+you get a name field, which Esc closes. Press it expecting a rename and you
+started a 400 MB transfer you cannot take back.</p>
 <ul>
-  <li><b>A Korean monospace font ships with the app.</b> A terminal gives each
-      Hangul syllable two columns; Menlo has no Hangul, and the substitute only
-      filled <b>72%</b> of that space, so Korean came out visibly gapped.
-      D2Coding fills all of it.</li>
-  <li>It is registered for PortButler only — nothing is added to your Font Book.
-      It becomes the default only if you read PortButler in Korean and have
-      never picked a font yourself.</li>
-  <li><b>A new version is announced in one place</b> — the version line at the
-      bottom of the session list, which now reads
-      <code>Update available · 0.9.0 → 0.10.0</code>. It no longer prints a line
-      into your terminal.</li>
-  <li><b>Settings fits each tab</b> instead of stretching every tab to the
-      tallest one and spreading the spare height between the rows.</li>
-  <li>The serial transfer pane lines up on the left, and three strings that
-      stayed English in Korean mode are translated.</li>
+  <li><b>Settings is rebuilt</b> — related rows grouped into cards, the
+      explanation below the card instead of inside it, labels left and controls
+      right, icons on the tabs, and no heavy bezel on pop-up buttons.</li>
+  <li><b>The session list handles a long one.</b> The SSH icon is legible
+      (<code>server.rack</code> is a smudge of stripes at 13pt), rows are
+      shorter so fifteen hosts fit where twelve did, and a group shows how many
+      hosts are inside it.</li>
+  <li>The serial transfer pane lines up — its title, buttons and history each
+      landed in a different place.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.10.0/PortButler-0.10.0.zip"
-        sparkle:version="19"
-        sparkle:shortVersionString="0.10.0"
-        length="23640506"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.11.0/PortButler-0.11.0.zip"
+        sparkle:version="20"
+        sparkle:shortVersionString="0.11.0"
+        length="23671026"
         type="application/octet-stream"
-        sparkle:edSignature="RuERgAyW7mMGHL/AuUSAYjWzmcauRtzJ7hR5wYLAy8ipZolbQhUV/7ICWCUoSxrjd69mjXPv8NaQRlt00D1sAQ==" />
+        sparkle:edSignature="pfhWnTQjgEHitvDZ7lcRkAqE1AQshuee4B70R7RMpiDZsBE47Q4RFr9kbGhNjAE1BJtij6Gz/ZAcCdCkB4d7AQ==" />
     </item>
   </channel>
 </rss>
