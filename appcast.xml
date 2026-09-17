@@ -3,30 +3,24 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.11.1</title>
-      <pubDate>Thu, 17 Sep 2026 11:57:39 +0000</pubDate>
+      <title>0.11.2</title>
+      <pubDate>Thu, 17 Sep 2026 15:05:04 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.11.1</h3>
-<p>The grey suggestion now sits where your cursor is.</p>
+      <description><![CDATA[<h3>0.11.2</h3>
+<p>The switch for command suggestions had no name on it.</p>
 <ul>
-  <li><b>It drifted further right the longer your line got.</b> We measured the
-      cell width but never snapped it to the pixel grid the way the terminal
-      engine does, so every column was off by a fraction and the fractions added
-      up — 9pt by column 40 at Menlo 12pt, wider than a character. The direction
-      flipped with font size, which made it look random.</li>
-  <li><b>The first suggestion you ever see now ends in a faint →</b>, which is
-      the key that accepts it. The hint disappears once you have used it.</li>
-  <li>Tab is not that key and will not become it — Tab belongs to the shell or
-      device on the far end, and taking it would remove the completion you
-      already had.</li>
+  <li><b>Settings ▸ Terminal showed a checkbox with nothing written beside it.</b>
+      It turns command suggestions on and off, and nothing on screen said so.
+      If you wanted to turn suggestions off, there was no way to know that was
+      the switch. It now reads <b>Suggest commands as I type</b>.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.11.1/PortButler-0.11.1.zip"
-        sparkle:version="21"
-        sparkle:shortVersionString="0.11.1"
-        length="23680076"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.11.2/PortButler-0.11.2.zip"
+        sparkle:version="22"
+        sparkle:shortVersionString="0.11.2"
+        length="23685430"
         type="application/octet-stream"
-        sparkle:edSignature="huxRaqUqskjSnoTeQECP1SmZla6zFhSi/aaQZyFTaPbof9/72O8vlyPsaPoCfcoqL1s4wMtsHgsfnoJM0ziKDg==" />
+        sparkle:edSignature="S/5xT4ulJfWNa/LRypookg/Xfp2TAJeNK3lImDxHirX8cvNZkdk4ERWjQyabHmstDDqsRNrXxzuZDaoSplGgAQ==" />
     </item>
   </channel>
 </rss>
