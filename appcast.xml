@@ -3,36 +3,30 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.11.0</title>
-      <pubDate>Wed, 16 Sep 2026 12:57:08 +0000</pubDate>
+      <title>0.11.1</title>
+      <pubDate>Thu, 17 Sep 2026 11:57:39 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.11.0</h3>
-<p>Mac habits, put back where they belong.</p>
-<h4>Changed — one key swapped</h4>
-<p><b>Return renames a file. ⌘↓ downloads it.</b> It was the other way round,
-and that was the Windows Explorer habit rather than the Mac one — Finder,
-Transmit and ForkLift all put rename on Return.</p>
-<p>The two mistakes are not the same size. Press Return expecting a download and
-you get a name field, which Esc closes. Press it expecting a rename and you
-started a 400 MB transfer you cannot take back.</p>
+      <description><![CDATA[<h3>0.11.1</h3>
+<p>The grey suggestion now sits where your cursor is.</p>
 <ul>
-  <li><b>Settings is rebuilt</b> — related rows grouped into cards, the
-      explanation below the card instead of inside it, labels left and controls
-      right, icons on the tabs, and no heavy bezel on pop-up buttons.</li>
-  <li><b>The session list handles a long one.</b> The SSH icon is legible
-      (<code>server.rack</code> is a smudge of stripes at 13pt), rows are
-      shorter so fifteen hosts fit where twelve did, and a group shows how many
-      hosts are inside it.</li>
-  <li>The serial transfer pane lines up — its title, buttons and history each
-      landed in a different place.</li>
+  <li><b>It drifted further right the longer your line got.</b> We measured the
+      cell width but never snapped it to the pixel grid the way the terminal
+      engine does, so every column was off by a fraction and the fractions added
+      up — 9pt by column 40 at Menlo 12pt, wider than a character. The direction
+      flipped with font size, which made it look random.</li>
+  <li><b>The first suggestion you ever see now ends in a faint →</b>, which is
+      the key that accepts it. The hint disappears once you have used it.</li>
+  <li>Tab is not that key and will not become it — Tab belongs to the shell or
+      device on the far end, and taking it would remove the completion you
+      already had.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.11.0/PortButler-0.11.0.zip"
-        sparkle:version="20"
-        sparkle:shortVersionString="0.11.0"
-        length="23671026"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.11.1/PortButler-0.11.1.zip"
+        sparkle:version="21"
+        sparkle:shortVersionString="0.11.1"
+        length="23680076"
         type="application/octet-stream"
-        sparkle:edSignature="pfhWnTQjgEHitvDZ7lcRkAqE1AQshuee4B70R7RMpiDZsBE47Q4RFr9kbGhNjAE1BJtij6Gz/ZAcCdCkB4d7AQ==" />
+        sparkle:edSignature="huxRaqUqskjSnoTeQECP1SmZla6zFhSi/aaQZyFTaPbof9/72O8vlyPsaPoCfcoqL1s4wMtsHgsfnoJM0ziKDg==" />
     </item>
   </channel>
 </rss>
