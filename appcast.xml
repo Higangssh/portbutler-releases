@@ -3,24 +3,31 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.11.2</title>
-      <pubDate>Thu, 17 Sep 2026 15:05:04 +0000</pubDate>
+      <title>0.11.3</title>
+      <pubDate>Fri, 18 Sep 2026 05:44:59 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.11.2</h3>
-<p>The switch for command suggestions had no name on it.</p>
+      <description><![CDATA[<h3>0.11.3</h3>
+<p>Two things you told us about the grey suggestion.</p>
 <ul>
-  <li><b>Settings ▸ Terminal showed a checkbox with nothing written beside it.</b>
-      It turns command suggestions on and off, and nothing on screen said so.
-      If you wanted to turn suggestions off, there was no way to know that was
-      the switch. It now reads <b>Suggest commands as I type</b>.</li>
+  <li><b>The grey text sat on top of the character you had just typed.</b> Its
+      position comes from the terminal cursor, but right after a keystroke the
+      cursor has not moved yet — the device has to echo the character first. We
+      drew one column early, and the overlap followed you across the line.</li>
+  <li><b>One press of ← silenced suggestions for the rest of the line.</b> Any
+      arrow key used to mean "this line is beyond us". Now ← and → are counted:
+      we stay quiet while the cursor is away from the end and pick up again when
+      it returns. End brings it back too.</li>
+  <li>We still stand down where we genuinely cannot follow — typing in the
+      middle of a line, ⌃← , Home and ↑↓. A suggestion placed on a line we have
+      misread is worse than no suggestion.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.11.2/PortButler-0.11.2.zip"
-        sparkle:version="22"
-        sparkle:shortVersionString="0.11.2"
-        length="23685430"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.11.3/PortButler-0.11.3.zip"
+        sparkle:version="23"
+        sparkle:shortVersionString="0.11.3"
+        length="23689575"
         type="application/octet-stream"
-        sparkle:edSignature="S/5xT4ulJfWNa/LRypookg/Xfp2TAJeNK3lImDxHirX8cvNZkdk4ERWjQyabHmstDDqsRNrXxzuZDaoSplGgAQ==" />
+        sparkle:edSignature="xBX6MVI7qfS/J1i8fIvmIuNMrGkX1RwDk1W16iHHcVL8mrXTCRuqpWZgTgcUZmjGkn2Zotw4OrxEUzzfBVG9BA==" />
     </item>
   </channel>
 </rss>
