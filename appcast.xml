@@ -3,31 +3,28 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.11.3</title>
-      <pubDate>Fri, 18 Sep 2026 05:44:59 +0000</pubDate>
+      <title>0.12.0</title>
+      <pubDate>Fri, 16 Oct 2026 06:11:17 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.11.3</h3>
-<p>Two things you told us about the grey suggestion.</p>
+      <description><![CDATA[<h3>0.12.0</h3>
 <ul>
-  <li><b>The grey text sat on top of the character you had just typed.</b> Its
-      position comes from the terminal cursor, but right after a keystroke the
-      cursor has not moved yet — the device has to echo the character first. We
-      drew one column early, and the overlap followed you across the line.</li>
-  <li><b>One press of ← silenced suggestions for the rest of the line.</b> Any
-      arrow key used to mean "this line is beyond us". Now ← and → are counted:
-      we stay quiet while the cursor is away from the end and pick up again when
-      it returns. End brings it back too.</li>
-  <li>We still stand down where we genuinely cannot follow — typing in the
-      middle of a line, ⌃← , Home and ↑↓. A suggestion placed on a line we have
-      misread is worse than no suggestion.</li>
+  <li><b>Whole folders move both ways</b>, with one question about same names
+      per drop, and a transfer queue under the file list instead of a sheet.</li>
+  <li><b>Split panes</b> (⌘D, ⇧⌘D) and <b>broadcast input</b> to every pane
+      (⌥⌘I).</li>
+  <li><b>Agent forwarding</b> now follows ForwardAgent in your ssh_config.
+      <b>Remote forwarding (-R)</b> is in the port forwarding window.</li>
+  <li><b>Generate SSH Key</b> and <b>Install Public Key on Server</b>.</li>
+  <li><b>Fixed:</b> saved hosts lost their tunnels, colour and jump settings on
+      restart.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.11.3/PortButler-0.11.3.zip"
-        sparkle:version="23"
-        sparkle:shortVersionString="0.11.3"
-        length="23689575"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.12.0/PortButler-0.12.0.zip"
+        sparkle:version="24"
+        sparkle:shortVersionString="0.12.0"
+        length="24588554"
         type="application/octet-stream"
-        sparkle:edSignature="xBX6MVI7qfS/J1i8fIvmIuNMrGkX1RwDk1W16iHHcVL8mrXTCRuqpWZgTgcUZmjGkn2Zotw4OrxEUzzfBVG9BA==" />
+        sparkle:edSignature="pT75CYsT7kzjOmqM3omC2yFXuDghLXxIGc97cv/wdEScSHmAJoWAuh0TYpMWUl6YHVg92wRRioFsoLWklOeNBw==" />
     </item>
   </channel>
 </rss>
