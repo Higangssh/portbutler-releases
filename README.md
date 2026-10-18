@@ -384,13 +384,12 @@ before you pay rather than after:
 
 | | PortButler | Where it exists |
 |---|---|---|
-| Folder transfer and a queue | not yet | Transmit, ForkLift |
-| Same input to many sessions | not yet | SecureCRT, iTerm |
-| Split panes | tabs only | iTerm, WindTerm |
+| Faster uploads — downloads are, uploads match `scp` | not yet | — |
+| Remote SOCKS forward (`RemoteForward 1080`) | not yet | OpenSSH |
+| Windows or Linux | **Mac only** | WindTerm, Tabby, SecureCRT |
 | Device sync over a vendor's cloud | **deliberately not** | Termius |
 
-The first three are being built, in that order. The last one is a decision, not
-a gap: syncing means your keys live on someone else's server, and that is the
+The first two are on the list. The last one is a decision, not a gap: syncing means your keys live on someone else's server, and that is the
 criticism Termius actually receives. **You get fourteen days to find out whether
 any of this matters for your work**, before any money changes hands.
 
@@ -418,8 +417,18 @@ click from the welcome panel, and an empty list offers to fill itself from your
 every window in the same list. Search finds one by port number. A forward you
 cannot see is a forward you forget.
 
-**SFTP** — drag and drop both ways, edit remote files in your own editor with
-saves uploaded automatically, and downloads that never silently overwrite.
+**SFTP** — drag and drop both ways, whole folders included, through a queue
+that keeps going while you browse. Same names are asked about once per drop,
+never overwritten silently. Edit remote files in your own editor with saves
+uploaded automatically.
+
+**Panes** — split a tab side by side or stacked, each pane its own session, and
+send what you type to every pane when you mean to. Every receiving pane carries
+a bar while that is on.
+
+**SSH basics** — agent forwarding that follows your `ssh_config`, remote
+forwards (-R), key generation, and installing your public key on a server —
+even one without SFTP.
 
 **Serial** — `/dev/cu.*` detected automatically — minus the two every Mac has
 and nobody wants to see. Speed and framing picked at connect time, control
@@ -525,8 +534,10 @@ start rather than after.
 | `⌥⌘S` · `⌥⌘F` | Toggle session list · file list |
 | `⌘T` · `⌘N` | New tab · new window |
 | `⌘L` · `⇧⌘L` | Start · stop session logging |
-| `⌘B` | Send Break *(serial)* |
-| `⌘R` | Pulse DTR — reset the board *(serial)* |
+| `⌘D` · `⇧⌘D` | Split side by side · stacked |
+| `⌥⌘I` | Send input to every pane in the tab |
+| `⌥⌘B` | Send Break *(serial)* |
+| `⌥⌘R` | Pulse DTR — reset the board *(serial)* |
 | `⌥⌘X` | Binary (hex) mode *(serial)* |
 
 ---
@@ -563,8 +574,9 @@ upgrade, that is a thing we structurally cannot do.
 You pay once. If we stop, the copy you have keeps working: it is a signed app on
 your disk, not a licence server that has to answer.
 
-**Being built now** — folder transfer with a queue, and sending the same input to
-several sessions at once. Both are in the table above, listed as missing.
+**Shipped in 0.12** — whole folders and a transfer queue, split panes, and
+sending the same input to every pane. Until then they were in the table above,
+listed as missing.
 
 **Next: the cable carries more than text.** The same RS-485 pair you read a
 console on is usually carrying Modbus frames the rest of the day. Today that
