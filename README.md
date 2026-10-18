@@ -596,6 +596,13 @@ and refuses to rename a file it has not verified. An agent has none of that and
 needs all of it. So an agent gets to reach your board through us — and you get to
 watch, and press the button.
 
+**Reading shipped in 0.13.** Mark a session with File ▸ Visible to Agents and
+an agent such as Claude Code can read it through PortButler's MCP server —
+passwords, keys and tokens already cut out, the device's output marked as data
+rather than instructions. Nothing is visible until you mark it. **Next is the
+button:** an agent proposes a command, you see it in the pane, and it runs only
+when you press Run.
+
 > **Your agent can reach the board. It still cannot touch it without you.**
 
 *No dates on any of this.* A date on a roadmap is a promise, and the only
