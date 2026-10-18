@@ -3,27 +3,26 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.12.1</title>
-      <pubDate>Sun, 18 Oct 2026 09:04:29 +0000</pubDate>
+      <title>0.13.0</title>
+      <pubDate>Sun, 18 Oct 2026 10:49:51 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.12.1</h3>
+      <description><![CDATA[<h3>0.13.0</h3>
 <ul>
-  <li><b>Tunnels:</b> the table says whether a port listens on this Mac or the
-      server, and every blocked tunnel says why.</li>
-  <li><b>Transfers:</b> the finished list no longer repeats itself, and small
-      files show their size in bytes.</li>
-  <li><b>Panes:</b> the focus border no longer covers text, and closing a pane
-      asks first if it still has transfers queued.</li>
-  <li><b>Command suggestions</b> no longer remember access tokens, in addition
-      to passwords.</li>
+  <li><b>Agents can read your sessions</b> — only the ones you mark with File ▸
+      Visible to Agents. They can read, not type, and passwords, keys and tokens
+      are redacted first. Settings ▸ Agents has the setup command.</li>
+  <li><b>One look across the app:</b> every form uses the same card layout, with
+      one highlighted button that Return presses.</li>
+  <li><b>Fixed:</b> Return in the credentials window now adds instead of
+      closing.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.12.1/PortButler-0.12.1.zip"
-        sparkle:version="25"
-        sparkle:shortVersionString="0.12.1"
-        length="24820913"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.13.0/PortButler-0.13.0.zip"
+        sparkle:version="26"
+        sparkle:shortVersionString="0.13.0"
+        length="25651389"
         type="application/octet-stream"
-        sparkle:edSignature="lhymmR3uz1jO9jYRZvYczxk+u/dbkUUu9BZI+OVx/2L51i8gTSr68RpLfsiSybajMP0qdAYpV1lyPnVdZ5BbBA==" />
+        sparkle:edSignature="r0EmB8Vm4gmJQvtb5cz+dWUmJT3LB9Q/zYoL0OQ0t9stcpKeQlPZWmNx8WoFN83rCMPSJkTpQmf5dAj138A8Dg==" />
     </item>
   </channel>
 </rss>
