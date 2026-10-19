@@ -111,11 +111,13 @@ explanation is right.
 **The gap widens with distance.** A server on the other side of the world
 (200 ms) leaves a sequential transfer crawling; a parallel one barely notices.
 
-**Folders are where it shows most.** 2,000 files of 1–20 KB to the same Pi 5:
-**0.6 s up and 0.7 s down, where `scp -r` takes 4.0 and 4.6 s.** Several files
-travel at once and each costs fewer round trips. Every upload is written to a
-temporary name and renamed only after the server has acknowledged every byte,
-so a transfer that is cut off never leaves a broken file under the real name.
+**Folders are where it shows most.** When the server has `tar`, a whole folder
+travels as one stream: a `node_modules`-like folder of 10,500 small files goes
+to the same Pi 5 in **2.1 s each way, where `scp -r` takes 22–24 s.** Nothing
+appears at the destination until the whole folder has arrived, and the
+server's archive is checked before anything is written — paths that point
+outside the folder stop the transfer, and links are never created. Servers
+without `tar` get the file-by-file route, which keeps several files in flight.
 
 <p align="center">
   <img src="docs/feat-xfer.png" width="900" alt="A transfer in progress, showing megabytes per second and the time left">
@@ -319,10 +321,6 @@ to win on that wire — which is exactly why the same-machine column exists.
 <summary><b>What we are <i>not</i> faster at — the honest list</b></summary>
 
 <br>
-
-**`rsync` is still faster for folders far away.** With 24 ms to the server it
-moved 200 small files about 5× faster than we do. On a local network we match
-it.
 
 **One small file shows no difference.** Parallelism hides round-trip latency;
 with only a few round trips there is nothing to hide. A folder of them is
