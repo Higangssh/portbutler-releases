@@ -111,13 +111,11 @@ explanation is right.
 **The gap widens with distance.** A server on the other side of the world
 (200 ms) leaves a sequential transfer crawling; a parallel one barely notices.
 
-**Uploads are not faster. They match `scp`** — we measure 74 MB/s over the same
-gigabit link, the same as `scp` and `sftp`. Reading a file is where several
-requests can be in the air at once. Writing one is not: writing to several
-places in a remote file at the same time leaves a **hole-ridden file** if the
-transfer is cut off, and we would rather be slow than hand you a firmware image
-with a gap in it. Until that is handled properly the upload path stays
-sequential, and we do not claim otherwise.
+**Folders are where it shows most.** 2,000 files of 1–20 KB to the same Pi 5:
+**0.6 s up and 0.7 s down, where `scp -r` takes 4.0 and 4.6 s.** Several files
+travel at once and each costs fewer round trips. Every upload is written to a
+temporary name and renamed only after the server has acknowledged every byte,
+so a transfer that is cut off never leaves a broken file under the real name.
 
 <p align="center">
   <img src="docs/feat-xfer.png" width="900" alt="A transfer in progress, showing megabytes per second and the time left">
@@ -322,13 +320,13 @@ to win on that wire — which is exactly why the same-machine column exists.
 
 <br>
 
-**Uploads are still sequential.** They match `scp`, not beat it. The same
-parallel design would work, but writing to several places in one remote file
-leaves a **hole-ridden file** if the transfer dies midway. Not shipping that
-until it is handled properly — unbroken beats fast.
+**`rsync` is still faster for folders far away.** With 24 ms to the server it
+moved 200 small files about 5× faster than we do. On a local network we match
+it.
 
-**Small files show no difference.** Parallelism hides round-trip latency; with
-only a few round trips there is nothing to hide.
+**One small file shows no difference.** Parallelism hides round-trip latency;
+with only a few round trips there is nothing to hide. A folder of them is
+another matter — see above.
 
 **A slow server erases the gap.** A Pi 5 encrypts fast enough, but on a weaker
 board the server's CPU is the bottleneck, not the client.
@@ -384,12 +382,11 @@ before you pay rather than after:
 
 | | PortButler | Where it exists |
 |---|---|---|
-| Faster uploads — downloads are, uploads match `scp` | not yet | — |
 | Remote SOCKS forward (`RemoteForward 1080`) | not yet | OpenSSH |
 | Windows or Linux | **Mac only** | WindTerm, Tabby, SecureCRT |
 | Device sync over a vendor's cloud | **deliberately not** | Termius |
 
-The first two are on the list. The last one is a decision, not a gap: syncing means your keys live on someone else's server, and that is the
+The first one is on the list. The last one is a decision, not a gap: syncing means your keys live on someone else's server, and that is the
 criticism Termius actually receives. **You get fourteen days to find out whether
 any of this matters for your work**, before any money changes hands.
 
