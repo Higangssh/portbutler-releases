@@ -3,24 +3,24 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.15.0</title>
-      <pubDate>Mon, 19 Oct 2026 14:46:24 +0000</pubDate>
+      <title>0.15.1</title>
+      <pubDate>Mon, 19 Oct 2026 17:30:01 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.15.0</h3>
+      <description><![CDATA[<h3>0.15.1</h3>
 <ul>
-  <li><b>A toolbar on terminal windows</b> — session list, file pane, port
-      forwarding and split, customisable from a right-click.</li>
-  <li><b>Window titles show the session</b>, with its connection state
-      underneath.</li>
-  <li><b>VoiceOver can name every control.</b></li>
+  <li><b>A View menu</b> with the toolbar (⌥⌘T), session list, file browser and
+      text size. Names and shortcuts are unchanged.</li>
+  <li><b>Fixed:</b> a remote file saved while the connection was dropping
+      could be left only on this Mac. Saves now wait and upload once the
+      connection is back.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.15.0/PortButler-0.15.0.zip"
-        sparkle:version="30"
-        sparkle:shortVersionString="0.15.0"
-        length="27108006"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.15.1/PortButler-0.15.1.zip"
+        sparkle:version="31"
+        sparkle:shortVersionString="0.15.1"
+        length="27201674"
         type="application/octet-stream"
-        sparkle:edSignature="9BSkE7/LCYynYtYtWt/HDcC0r567HwagjujaC6igUkZ0csNy+ELQObdGiRztVXytXBqydUsnjpN4YOt5t8TkAg==" />
+        sparkle:edSignature="M/DcT4NumBAHPOmXoGSqIa7FpxP+9EqupXh3EkgcI1Ikfds1JL7pBITcQwU7J3hhJuGGglQwiPhxO1bpV7uzCA==" />
     </item>
   </channel>
 </rss>
