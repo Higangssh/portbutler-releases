@@ -3,24 +3,24 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.14.2</title>
-      <pubDate>Mon, 19 Oct 2026 10:14:19 +0000</pubDate>
+      <title>0.15.0</title>
+      <pubDate>Mon, 19 Oct 2026 14:46:24 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.14.2</h3>
+      <description><![CDATA[<h3>0.15.0</h3>
 <ul>
-  <li><b>Folders move as one stream</b> when the server has <code>tar</code> —
-      10,500 small files to a Raspberry Pi in about 2 seconds, where
-      <code>scp -r</code> takes over 20. Nothing appears until the whole folder
-      has arrived.</li>
-  <li><b>Large files from far-away servers download about 3× faster.</b></li>
+  <li><b>A toolbar on terminal windows</b> — session list, file pane, port
+      forwarding and split, customisable from a right-click.</li>
+  <li><b>Window titles show the session</b>, with its connection state
+      underneath.</li>
+  <li><b>VoiceOver can name every control.</b></li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.14.2/PortButler-0.14.2.zip"
-        sparkle:version="29"
-        sparkle:shortVersionString="0.14.2"
-        length="27022907"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.15.0/PortButler-0.15.0.zip"
+        sparkle:version="30"
+        sparkle:shortVersionString="0.15.0"
+        length="27108006"
         type="application/octet-stream"
-        sparkle:edSignature="8Befv75S6yxf5yxNycSlCcY1cMtMtZtHOHYIRlQG1BobaFpSbqn+E4xgkwzLvri7b4x71H67AwpPfpaYEp5tAg==" />
+        sparkle:edSignature="9BSkE7/LCYynYtYtWt/HDcC0r567HwagjujaC6igUkZ0csNy+ELQObdGiRztVXytXBqydUsnjpN4YOt5t8TkAg==" />
     </item>
   </channel>
 </rss>
