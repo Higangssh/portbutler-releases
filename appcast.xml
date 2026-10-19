@@ -3,25 +3,26 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.14.0</title>
-      <pubDate>Mon, 19 Oct 2026 05:58:14 +0000</pubDate>
+      <title>0.14.1</title>
+      <pubDate>Mon, 19 Oct 2026 08:48:25 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.14.0</h3>
+      <description><![CDATA[<h3>0.14.1</h3>
 <ul>
-  <li><b>Folders of small files move about 7× faster</b>, and large folder
-      downloads no longer stop part-way.</li>
-  <li><b>After a reconnect the file list comes back</b> to the folder you were
-      in, instead of saying "not connected".</li>
-  <li><b>Agents can propose a command</b> — it appears as a card in the pane and
-      runs only when you press Run.</li>
+  <li><b>Jump hosts use their own saved password</b>, including one saved in a
+      shared login.</li>
+  <li><b>Saved passwords no longer disappear</b> when several panes reconnect
+      at once.</li>
+  <li><b>Press Return to reconnect</b> a session that has ended.</li>
+  <li><b>Fixed:</b> a red dot on a connected server, and the host editor
+      sitting to the right of its window.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.14.0/PortButler-0.14.0.zip"
-        sparkle:version="27"
-        sparkle:shortVersionString="0.14.0"
-        length="26277344"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.14.1/PortButler-0.14.1.zip"
+        sparkle:version="28"
+        sparkle:shortVersionString="0.14.1"
+        length="26807398"
         type="application/octet-stream"
-        sparkle:edSignature="GKDFY9X/Cy6pxAYTjjy/9kW91gcqbtJwjlbA+LRE3eb/mm8qvdUns4OK/pF4+2chVPomCOMvxVMVzHs+8XzyDg==" />
+        sparkle:edSignature="pW/H3TYxn179IWIyoXqcRjCXDWDAXrfx+ybOlSf1U3sC17FMdIBKCYs2T/wNpyZfSgmJO1KPhEu6w7R0OyKoAg==" />
     </item>
   </channel>
 </rss>
