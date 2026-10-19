@@ -3,26 +3,24 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.14.1</title>
-      <pubDate>Mon, 19 Oct 2026 08:48:25 +0000</pubDate>
+      <title>0.14.2</title>
+      <pubDate>Mon, 19 Oct 2026 10:14:19 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.14.1</h3>
+      <description><![CDATA[<h3>0.14.2</h3>
 <ul>
-  <li><b>Jump hosts use their own saved password</b>, including one saved in a
-      shared login.</li>
-  <li><b>Saved passwords no longer disappear</b> when several panes reconnect
-      at once.</li>
-  <li><b>Press Return to reconnect</b> a session that has ended.</li>
-  <li><b>Fixed:</b> a red dot on a connected server, and the host editor
-      sitting to the right of its window.</li>
+  <li><b>Folders move as one stream</b> when the server has <code>tar</code> —
+      10,500 small files to a Raspberry Pi in about 2 seconds, where
+      <code>scp -r</code> takes over 20. Nothing appears until the whole folder
+      has arrived.</li>
+  <li><b>Large files from far-away servers download about 3× faster.</b></li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.14.1/PortButler-0.14.1.zip"
-        sparkle:version="28"
-        sparkle:shortVersionString="0.14.1"
-        length="26807398"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.14.2/PortButler-0.14.2.zip"
+        sparkle:version="29"
+        sparkle:shortVersionString="0.14.2"
+        length="27022907"
         type="application/octet-stream"
-        sparkle:edSignature="pW/H3TYxn179IWIyoXqcRjCXDWDAXrfx+ybOlSf1U3sC17FMdIBKCYs2T/wNpyZfSgmJO1KPhEu6w7R0OyKoAg==" />
+        sparkle:edSignature="8Befv75S6yxf5yxNycSlCcY1cMtMtZtHOHYIRlQG1BobaFpSbqn+E4xgkwzLvri7b4x71H67AwpPfpaYEp5tAg==" />
     </item>
   </channel>
 </rss>
