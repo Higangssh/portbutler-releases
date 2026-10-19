@@ -3,26 +3,25 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.13.0</title>
-      <pubDate>Sun, 18 Oct 2026 10:49:51 +0000</pubDate>
+      <title>0.14.0</title>
+      <pubDate>Mon, 19 Oct 2026 05:58:14 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.13.0</h3>
+      <description><![CDATA[<h3>0.14.0</h3>
 <ul>
-  <li><b>Agents can read your sessions</b> — only the ones you mark with File ▸
-      Visible to Agents. They can read, not type, and passwords, keys and tokens
-      are redacted first. Settings ▸ Agents has the setup command.</li>
-  <li><b>One look across the app:</b> every form uses the same card layout, with
-      one highlighted button that Return presses.</li>
-  <li><b>Fixed:</b> Return in the credentials window now adds instead of
-      closing.</li>
+  <li><b>Folders of small files move about 7× faster</b>, and large folder
+      downloads no longer stop part-way.</li>
+  <li><b>After a reconnect the file list comes back</b> to the folder you were
+      in, instead of saying "not connected".</li>
+  <li><b>Agents can propose a command</b> — it appears as a card in the pane and
+      runs only when you press Run.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.13.0/PortButler-0.13.0.zip"
-        sparkle:version="26"
-        sparkle:shortVersionString="0.13.0"
-        length="25651389"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.14.0/PortButler-0.14.0.zip"
+        sparkle:version="27"
+        sparkle:shortVersionString="0.14.0"
+        length="26277344"
         type="application/octet-stream"
-        sparkle:edSignature="r0EmB8Vm4gmJQvtb5cz+dWUmJT3LB9Q/zYoL0OQ0t9stcpKeQlPZWmNx8WoFN83rCMPSJkTpQmf5dAj138A8Dg==" />
+        sparkle:edSignature="GKDFY9X/Cy6pxAYTjjy/9kW91gcqbtJwjlbA+LRE3eb/mm8qvdUns4OK/pF4+2chVPomCOMvxVMVzHs+8XzyDg==" />
     </item>
   </channel>
 </rss>
