@@ -3,24 +3,22 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.15.1</title>
-      <pubDate>Mon, 19 Oct 2026 17:30:01 +0000</pubDate>
+      <title>0.15.2</title>
+      <pubDate>Tue, 20 Oct 2026 01:16:04 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.15.1</h3>
+      <description><![CDATA[<h3>0.15.2</h3>
 <ul>
-  <li><b>A View menu</b> with the toolbar (⌥⌘T), session list, file browser and
-      text size. Names and shortcuts are unchanged.</li>
-  <li><b>Fixed:</b> a remote file saved while the connection was dropping
-      could be left only on this Mac. Saves now wait and upload once the
-      connection is back.</li>
+  <li><b>PortButler asks before closing</b> when an edited remote file hasn't
+      reached the server yet, and tells you where your copy is.</li>
+  <li>Copies of edited files are kept for 30 days in PortButler's own folder.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.15.1/PortButler-0.15.1.zip"
-        sparkle:version="31"
-        sparkle:shortVersionString="0.15.1"
-        length="27201674"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.15.2/PortButler-0.15.2.zip"
+        sparkle:version="32"
+        sparkle:shortVersionString="0.15.2"
+        length="27298498"
         type="application/octet-stream"
-        sparkle:edSignature="M/DcT4NumBAHPOmXoGSqIa7FpxP+9EqupXh3EkgcI1Ikfds1JL7pBITcQwU7J3hhJuGGglQwiPhxO1bpV7uzCA==" />
+        sparkle:edSignature="23gTDGUb6OqDwnoEl7hDgVEPRsDweEvcvwgSM4izJgIWqDwbd4lUrMtudWFu208GPq29OqHpPywmeiVrpmgECA==" />
     </item>
   </channel>
 </rss>
