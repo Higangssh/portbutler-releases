@@ -3,22 +3,23 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.15.2</title>
-      <pubDate>Tue, 20 Oct 2026 01:16:04 +0000</pubDate>
+      <title>0.16.0</title>
+      <pubDate>Tue, 20 Oct 2026 22:27:36 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.15.2</h3>
+      <description><![CDATA[<h3>0.16.0</h3>
 <ul>
-  <li><b>PortButler asks before closing</b> when an edited remote file hasn't
-      reached the server yet, and tells you where your copy is.</li>
-  <li>Copies of edited files are kept for 30 days in PortButler's own folder.</li>
+  <li><b>Agents can list your saved hosts</b> (Settings ▸ Agents) — never
+      passwords, keys or notes.</li>
+  <li><b>Agents can propose connecting, adding or editing a host, and opening a
+      port forward.</b> Each one waits for you to press its button.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.15.2/PortButler-0.15.2.zip"
-        sparkle:version="32"
-        sparkle:shortVersionString="0.15.2"
-        length="27298498"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.16.0/PortButler-0.16.0.zip"
+        sparkle:version="33"
+        sparkle:shortVersionString="0.16.0"
+        length="27784064"
         type="application/octet-stream"
-        sparkle:edSignature="23gTDGUb6OqDwnoEl7hDgVEPRsDweEvcvwgSM4izJgIWqDwbd4lUrMtudWFu208GPq29OqHpPywmeiVrpmgECA==" />
+        sparkle:edSignature="eitFpLbeXlzDlYAaN5lN5wtHJL3cVf+Syjf+gdAsmwFmluYdGdHE8XzqJJFPqGk8nwdT2N5ixaHY5bYr3vTuAQ==" />
     </item>
   </channel>
 </rss>
