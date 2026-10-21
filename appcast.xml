@@ -3,23 +3,22 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.16.0</title>
-      <pubDate>Tue, 20 Oct 2026 22:27:36 +0000</pubDate>
+      <title>0.17.0</title>
+      <pubDate>Wed, 21 Oct 2026 23:11:59 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.16.0</h3>
+      <description><![CDATA[<h3>0.17.0</h3>
 <ul>
-  <li><b>Agents can list your saved hosts</b> (Settings ▸ Agents) — never
-      passwords, keys or notes.</li>
-  <li><b>Agents can propose connecting, adding or editing a host, and opening a
-      port forward.</b> Each one waits for you to press its button.</li>
+  <li><b>Agents can read a serial console's boot log</b> — split into phases
+      with timings, where it stopped, and known failures such as kernel panics,
+      bad U-Boot images and watchdog reset loops.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.16.0/PortButler-0.16.0.zip"
-        sparkle:version="33"
-        sparkle:shortVersionString="0.16.0"
-        length="27784064"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.17.0/PortButler-0.17.0.zip"
+        sparkle:version="34"
+        sparkle:shortVersionString="0.17.0"
+        length="27924326"
         type="application/octet-stream"
-        sparkle:edSignature="eitFpLbeXlzDlYAaN5lN5wtHJL3cVf+Syjf+gdAsmwFmluYdGdHE8XzqJJFPqGk8nwdT2N5ixaHY5bYr3vTuAQ==" />
+        sparkle:edSignature="OrkSW0IVxYW7jcOthg7zzlhUrQDVeeZnTZiT+SLzmp6T04T/apEzt9hPIlhBZHkU7rpqFyoM/hr4e84HWU56AQ==" />
     </item>
   </channel>
 </rss>
