@@ -3,22 +3,24 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.17.0</title>
-      <pubDate>Wed, 21 Oct 2026 23:11:59 +0000</pubDate>
+      <title>0.18.0</title>
+      <pubDate>Fri, 23 Oct 2026 00:53:36 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.17.0</h3>
+      <description><![CDATA[<h3>0.18.0</h3>
 <ul>
-  <li><b>Agents can read a serial console's boot log</b> — split into phases
-      with timings, where it stopped, and known failures such as kernel panics,
-      bad U-Boot images and watchdog reset loops.</li>
+  <li><b>Agents can propose file transfers</b> — over SSH through the transfer
+      queue, or to a serial device. Nothing moves until you press the card's
+      button.</li>
+  <li>Keys, <code>~/.ssh</code>, <code>~/Library</code> and other secrets on your
+      Mac are never offered for upload.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.17.0/PortButler-0.17.0.zip"
-        sparkle:version="34"
-        sparkle:shortVersionString="0.17.0"
-        length="27924326"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.18.0/PortButler-0.18.0.zip"
+        sparkle:version="35"
+        sparkle:shortVersionString="0.18.0"
+        length="28261867"
         type="application/octet-stream"
-        sparkle:edSignature="OrkSW0IVxYW7jcOthg7zzlhUrQDVeeZnTZiT+SLzmp6T04T/apEzt9hPIlhBZHkU7rpqFyoM/hr4e84HWU56AQ==" />
+        sparkle:edSignature="BPHSWLh0klzxbZqmAeE2vpKJdaR1E+lT5q54y5q8OfERRKUTFwLEb4b22s3KLIkF68K173jzv0I8V9RZifYHDQ==" />
     </item>
   </channel>
 </rss>
