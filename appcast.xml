@@ -3,24 +3,21 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.18.0</title>
-      <pubDate>Fri, 23 Oct 2026 00:53:36 +0000</pubDate>
+      <title>0.18.1</title>
+      <pubDate>Fri, 23 Oct 2026 02:46:05 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.18.0</h3>
+      <description><![CDATA[<h3>0.18.1</h3>
 <ul>
-  <li><b>Agents can propose file transfers</b> — over SSH through the transfer
-      queue, or to a serial device. Nothing moves until you press the card's
-      button.</li>
-  <li>Keys, <code>~/.ssh</code>, <code>~/Library</code> and other secrets on your
-      Mac are never offered for upload.</li>
+  <li><b>Fixed:</b> Ctrl+C and other Ctrl keys did nothing while the input
+      source was Korean. They now follow the key you pressed.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.18.0/PortButler-0.18.0.zip"
-        sparkle:version="35"
-        sparkle:shortVersionString="0.18.0"
-        length="28261867"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.18.1/PortButler-0.18.1.zip"
+        sparkle:version="36"
+        sparkle:shortVersionString="0.18.1"
+        length="28326081"
         type="application/octet-stream"
-        sparkle:edSignature="BPHSWLh0klzxbZqmAeE2vpKJdaR1E+lT5q54y5q8OfERRKUTFwLEb4b22s3KLIkF68K173jzv0I8V9RZifYHDQ==" />
+        sparkle:edSignature="CqY35UDkF3xiI4Fn863v2bpibYRT1kCCGa/Mh2Yqt7efgAX0qCl1e3uBmMP7asqpM2GgQloV6d2Bb14ovM38Cw==" />
     </item>
   </channel>
 </rss>
