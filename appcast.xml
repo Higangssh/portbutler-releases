@@ -3,23 +3,22 @@
   <channel>
     <title>PortButler</title>
     <item>
-      <title>0.18.2</title>
-      <pubDate>Sun, 25 Oct 2026 02:54:09 +0000</pubDate>
+      <title>0.18.3</title>
+      <pubDate>Thu, 29 Oct 2026 13:18:21 +0000</pubDate>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>0.18.2</h3>
+      <description><![CDATA[<h3>0.18.3</h3>
 <ul>
-  <li><b>Fixed:</b> Ctrl+C, Ctrl+F and Ctrl+R could be taken by the Window
-      menu's tiling items on macOS 15 and later. They now reach the terminal.</li>
-  <li><b>Fixed:</b> Control and Option keys stopped working after typing Korean
-      in fish 4 and similar programs.</li>
+  <li><b>Fixed:</b> after the trial ended, a window that was already open could
+      still reconnect. Reconnecting now follows the same rule as connecting,
+      and Return offers to enter a license.</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.18.2/PortButler-0.18.2.zip"
-        sparkle:version="37"
-        sparkle:shortVersionString="0.18.2"
-        length="28445143"
+        url="https://github.com/Higangssh/portbutler-releases/releases/download/v0.18.3/PortButler-0.18.3.zip"
+        sparkle:version="38"
+        sparkle:shortVersionString="0.18.3"
+        length="28477615"
         type="application/octet-stream"
-        sparkle:edSignature="yP7lgp0so0k161oa+p2Lph722unTe/QcWOIZoB0qAR6ugWrv8WQULUfBiWNa3TuGyFkPk7VJ5OPjNLgchPEdBQ==" />
+        sparkle:edSignature="Hl7xiMMO8+sBV81Ip9fHMkcNm+NO9fqJbQiHZY/+Rw4xRtU9J55sV3p48RwOB8RGkVRB6sBk1ROQvJx+6SFrBg==" />
     </item>
   </channel>
 </rss>
